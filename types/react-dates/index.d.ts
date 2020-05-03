@@ -218,6 +218,7 @@ declare namespace ReactDates {
                 date: momentPropTypes.momentObj;
             }
         ) => void;
+        onOutsideClick?: () => void;
 
         // day presentation and interaction related props
         renderCalendarDay?: (day: momentPropTypes.momentObj) => string | JSX.Element;
